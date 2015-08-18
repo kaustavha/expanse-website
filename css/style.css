@@ -1,0 +1,139 @@
+﻿/* ============================================================================================== 
+This copyright notice must be kept untouched in the stylesheet at all times.
+The original version of this stylesheet and the associated (x)html 
+is available at http://www.script-tutorials.com/bootstrap-one-page-template-with-parallax-effect/
+Copyright (c) Script Tutorials. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any way to fit your requirements.
+================================================================================================= */
+
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+  color:#F8F8F8;
+}
+.basefont { color:#F8F8F8;}
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+/* additional sections */
+#home {
+	background: url(../images/the-depths-of-the-universe.jpg) no-repeat center center fixed;
+ /* background: url(../images/bgs/gen1.jpg) no-repeat center center fixed; */
+  display: table;
+  height: 85%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about {
+}
+
+#services {
+  background-color: #306d9f;
+  color: #ffffff;
+}
+#services .glyphicon {
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+#world {
+  /*background: url(../images/the-depths-of-the-universe.jpg) no-repeat center center fixed; */
+  background: url(../images/bgs/world1.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 500px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#information {
+  /*background: url(../images/the-depths-of-the-universe.jpg) no-repeat center center fixed; */
+  background: url(../images/bgs/world5.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#information .panel {
+  opacity: 0.85;
+}
+
+#google_map {
+  height: 500px;
+}
+
+footer {
+  padding: 20px 0;
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+}
+/* This should be around line 4713 in your bootstrap.css */
+.navbar-collapse.collapse {
+        text-align: center; /* Set this */
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important;
+        font-weight:bold;
+}
+
+/* This should be around line 4866 in your bootstrap.css */
+.navbar-nav {
+    display:inline-block;
+    float: none;
+    margin: 0;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.btn-top5{margin-top:10px;}
