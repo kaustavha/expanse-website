@@ -88,9 +88,8 @@ html, body {
   width: 140px;
 }
 #world {
-  background: url(../images/the-depths-of-the-universe.jpg) no-repeat center center fixed;
-  /*background: url(../images/bgs/world1.jpg) no-repeat center center fixed;  */
-  display: none;
+ background: url(../images/bgs/world2.jpg) no-repeat center center fixed; 
+  display: block;
   height: 100px;
   position: relative;
   width: 100%;
@@ -99,11 +98,12 @@ html, body {
   -o-background-size: cover;
   background-size: cover;
 }
+
 #information {
   background: url(../images/the-depths-of-the-universe.jpg) no-repeat center center fixed;
   /*background: url(../images/bgs/world2.jpg) no-repeat center center fixed; */ 
   display: table;
-  height: 800px;
+  height: 300px;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -151,6 +151,7 @@ footer .glyphicon:hover {
     display:inline-block;
     float: none;
     margin: 0;
+	
 }
 .col-centered{
     float: none;
@@ -158,3 +159,12 @@ footer .glyphicon:hover {
 }
 
 .btn-top5{margin-top:10px;}
+.bar-orange{height:3px;width:100%;background-color:#df691a;}
+.bar-darkblue{height:3px;width:100%;background-color:#152139;}
+.bar-greyblue{height:3px;width:100%;background-color:#2b3e50;}
+.panel-sm{width: 250px; float:left;}
+.margin-0-10{margin:0px 15px;}
+.cursor-pointer{cursor:pointer;}
+.cursor-pointer:hover { -webkit-box-shadow: 0px 0px 15px 5px rgba(255, 255, 222, .75);
+-moz-box-shadow: 0px 0px 15px 5px rgba(255, 255, 222, .75);
+box-shadow: 0px 0px 15px 5px rgba(255, 255, 222, .75); }
