@@ -4313,6 +4313,7 @@ a.list-group-item-danger.active, button.list-group-item-danger.active, a.list-gr
     margin-bottom: 0;
     font-size: 17px;
     color: inherit;
+	
 }
 .panel-title>a, .panel-title>small, .panel-title>.small, .panel-title>small>a, .panel-title>.small>a {
     color: inherit;

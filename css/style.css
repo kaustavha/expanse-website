@@ -87,19 +87,13 @@ html, body {
   vertical-align: middle;
   width: 140px;
 }
-#world {
- background: url(../images/bgs/world2.jpg) no-repeat center center fixed; 
-  display: block;
-  height: 100px;
-  position: relative;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#faq {
+  background-color: #000;
+  color: #ffffff;
+  padding: 10px 0px 30px;
 }
 
-#information {
+#community {
   background: url(../images/the-depths-of-the-universe.jpg) no-repeat center center fixed;
   /*background: url(../images/bgs/world2.jpg) no-repeat center center fixed; */ 
   display: table;
@@ -111,13 +105,15 @@ html, body {
   -o-background-size: cover;
   background-size: cover;
 }
-#information .panel {
-  opacity: 0.85;
+#community .panel {
+  /*opacity: 0.85;*/
 }
-
+.test{ display: table;position: relative;}
 #google_map {
   height: 500px;
 }
+
+
 
 footer {
   padding: 20px 0;
@@ -160,11 +156,29 @@ footer .glyphicon:hover {
 
 .btn-top5{margin-top:10px;}
 .bar-orange{height:3px;width:100%;background-color:#df691a;}
-.bar-darkblue{height:3px;width:100%;background-color:#152139;}
-.bar-greyblue{height:3px;width:100%;background-color:#2b3e50;}
+.bar-darkblue{height:3px;width:100%;background-color:#152139;display:  block}
+.bar-greyblue{height:3px;width:100%;background-color:#2b3e50; display:  block}
 .panel-sm{width: 250px; float:left;}
 .margin-0-10{margin:0px 15px;}
 .cursor-pointer{cursor:pointer;}
 .cursor-pointer:hover { -webkit-box-shadow: 0px 0px 15px 5px rgba(255, 255, 222, .75);
 -moz-box-shadow: 0px 0px 15px 5px rgba(255, 255, 222, .75);
 box-shadow: 0px 0px 15px 5px rgba(255, 255, 222, .75); }
+body{padding-top:50px;}
+.section { 
+ padding-top: 60px;
+    margin-top: -60px; 
+}
+
+
+    .panel-transparent {
+        background: none;
+    }
+
+    .panel-transparent .panel-heading{
+        background: rgba(122, 130, 136, 0.8)!important;
+    }
+
+    .panel-transparent .panel-body{
+        background: rgba(46, 51, 56, 0.8)!important;
+    }
