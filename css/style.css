@@ -71,12 +71,12 @@ html, body {
   vertical-align: middle;
   width: 140px;
 }
-#services {
+#contracts {
   background-color: #152139;
   color: #ffffff;
   
 }
-#services .glyphicon {
+#contracts .glyphicon {
   border: 2px solid #FFFFFF;
   border-radius: 50%;
   display: inline-block;
@@ -109,11 +109,14 @@ html, body {
   /*opacity: 0.85;*/
 }
 .test{ display: table;position: relative;}
-#google_map {
-  height: 500px;
+#documentation {
+  
 }
 
-
+#downloads {
+ 
+ 
+}
 
 footer {
   padding: 20px 0;
@@ -182,3 +185,4 @@ body{padding-top:50px;}
     .panel-transparent .panel-body{
         background: rgba(46, 51, 56, 0.8)!important;
     }
+	.panel-body ul{list-style:none;padding:0px 15px;}
