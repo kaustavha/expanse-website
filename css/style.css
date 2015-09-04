@@ -151,7 +151,10 @@ footer .glyphicon:hover {
     display:inline-block;
     float: none;
     margin: 0;
-	
+}
+.navbar-center {
+  padding: 0px;
+  margin: 0px 1vw;
 }
 .col-centered{
     float: none;
